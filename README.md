@@ -25,14 +25,14 @@ Masked face recognition 혹은 detection model은 구글링을 통해 쉽게 찾
         
 
     (최종 matrix :[matrix](https://wandb.ai/ethan_wyf/0116train/reports/Results-23-04-08-00-49-56---Vmlldzo0MDAyNDMw?accessToken=rimdmnin5atab4gu737st23hfqjipvcnmweun3tlw6ynq8dv6atip8106obqol5d))
-![matrix](attachment:image.png)
+![matrix](wandb_img/total_matrix.png)
         
 - 결론  
     Yolo_v7 model의 fine-tuning만으로도 face detect가 정교하게 진행되었음. 그러나 detect된 face들이 어떤 사람인지 구별하는데에는 아쉬운 성능을 보였음  
     -> mAP점수는 완만한 상승을 보이나, precision과 recall 값이 0.6 - 0.8 밴드 사이에서 요동치는 모습
     |mAP.5@.95|precision|recall|
     |:---:|:---:|:---:|
-    |![mAP.5@.95](attachment:image-2.png)|![image.png](attachment:image-3.png)|![image.png](attachment:image-4.png)|
+    |![mAP.5@.95](wandb_img/wandb_mAP.png)|![image.png](wandb_img/wandb_precision.png)|![image.png](wandb_img/wandb_recall.png)|
 
 
     결과적으로 데이터 양을 늘리면서 작업해봤지만, 향상 폭은 미미했음.  
