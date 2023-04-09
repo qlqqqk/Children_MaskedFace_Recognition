@@ -45,6 +45,6 @@ Masked face recognition 혹은 detection model은 구글링을 통해 쉽게 찾
     2. Detectron의 경우 해당 블로그 [Yolo vs Detectron](https://medium.com/ireadrx/detectron2-vs-yolov5-which-one-suits-your-use-case-better-d959a3d4bdf)의 조언에 따라 데이터 양이 충분하다고 생각했고, 로컬 컴퓨팅 파워로는 조금더 가벼운 Yolo가 실험하기에 용이할 것으로 판단.
 
 - references
-https://github.com/derronqi/yolov7-face
-https://github.com/WongKinYiu/yolov7
+https://github.com/derronqi/yolov7-face  
+https://github.com/WongKinYiu/yolov7  
 https://github.com/facebookresearch/detectron2
